@@ -1,0 +1,127 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"9 D:\SMEC\I2C_AVR_TO_PIC\MPLAB\PIC_MASTER.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+"33
+[v _I2C_INIT I2C_INIT `(v  1 e 1 0 ]
+"40
+[v __I2C_START _I2C_START `(v  1 e 1 0 ]
+"46
+[v __I2C_STOP _I2C_STOP `(v  1 e 1 0 ]
+"51
+[v _I2C_SEND_DATA I2C_SEND_DATA `(v  1 e 1 0 ]
+"57
+[v _I2C_READ_DATA I2C_READ_DATA `(uc  1 e 1 0 ]
+"66
+[v _TRANSMIT_CHAR TRANSMIT_CHAR `(v  1 e 1 0 ]
+"27281 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4580.h
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"27503
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"28779
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"28989
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"29245
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"29269
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"30413
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+"30475
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"30545
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"30793
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"30800
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"32485
+[v _ACKDT ACKDT `VEb  1 e 0 @32301 ]
+"32488
+[v _ACKEN ACKEN `VEb  1 e 0 @32300 ]
+"36091
+[v _PEN PEN `VEb  1 e 0 @32298 ]
+"36274
+[v _RCEN RCEN `VEb  1 e 0 @32299 ]
+"38860
+[v _SEN SEN `VEb  1 e 0 @32296 ]
+"38905
+[v _SSPIF SSPIF `VEb  1 e 0 @31987 ]
+"40339
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"9 D:\SMEC\I2C_AVR_TO_PIC\MPLAB\PIC_MASTER.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+{
+"20
+[v main@m m `uc  1 a 1 1 ]
+"30
+} 0
+"46
+[v __I2C_STOP _I2C_STOP `(v  1 e 1 0 ]
+{
+"50
+} 0
+"40
+[v __I2C_START _I2C_START `(v  1 e 1 0 ]
+{
+"44
+} 0
+"66
+[v _TRANSMIT_CHAR TRANSMIT_CHAR `(v  1 e 1 0 ]
+{
+[v TRANSMIT_CHAR@b b `uc  1 a 1 wreg ]
+[v TRANSMIT_CHAR@b b `uc  1 a 1 wreg ]
+[v TRANSMIT_CHAR@b b `uc  1 a 1 0 ]
+"71
+} 0
+"51
+[v _I2C_SEND_DATA I2C_SEND_DATA `(v  1 e 1 0 ]
+{
+[v I2C_SEND_DATA@a a `uc  1 a 1 wreg ]
+[v I2C_SEND_DATA@a a `uc  1 a 1 wreg ]
+"53
+[v I2C_SEND_DATA@a a `uc  1 a 1 0 ]
+"56
+} 0
+"57
+[v _I2C_READ_DATA I2C_READ_DATA `(uc  1 e 1 0 ]
+{
+[v I2C_READ_DATA@a a `uc  1 a 1 wreg ]
+[v I2C_READ_DATA@a a `uc  1 a 1 wreg ]
+"59
+[v I2C_READ_DATA@a a `uc  1 a 1 0 ]
+"65
+} 0
+"33
+[v _I2C_INIT I2C_INIT `(v  1 e 1 0 ]
+{
+"39
+} 0
